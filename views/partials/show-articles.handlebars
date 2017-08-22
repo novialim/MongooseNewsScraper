@@ -1,0 +1,15 @@
+{{#each articles}}
+    <div data-index={{@index}} class="article">
+        <div class="card">
+            
+                <div data-headline-index={{@index}} class="headline"><h2><a data-link-index={{@index}} href="{{this.link}}" target="_blank">{{this.title}}</a></h2>
+                    <p data-summary-index={{@index}} class="summary">{{this.summary}}</p>
+                    <button data-index={{@index}} class="save btn btn-primary">Save</button>
+                </div>
+            <!-- end article column -->
+            
+                
+            
+        </div><!-- /end card -->
+    </div><!-- /end article row-->
+{{/each}}

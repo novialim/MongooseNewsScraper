@@ -1,0 +1,9 @@
+<!-- do  articles exist? -->
+{{#if articles}}
+<!-- they do -->
+	{{>show-articles}} 
+
+{{else}}
+<!-- they do not -->
+    <p>No articles saved! Try <a href="/">scraping for some</a>, then click "Save".</p>
+{{/if}}    

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Novia Lim">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Novia Lim - Modern Full Stack Developer" />
+    <meta property="og:image" content="http://i.imgur.com/ARQqXNN.jpg" />
+    <meta property="og:description" content="Passionate in programming and data analytics, Novia has more than 10 years of IT + data analytics working experience with corporations such as Lexmark, Mercer & Oracle. Specialties: JavaScript, HTML5, CSS3, Git, Responsive design, API/JSON, RESTful API, Node.js, Express, React.js and Foundation Course in Analytics." />
+    <meta property="og:url" content="http://novialim.com" />
+
+    <title>A Bit of Positivity</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom stylesheet link -->
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Comfortaa|VT323" rel="stylesheet">
+    <!-- JQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+     <div class="collapse bg-inverse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 py-4">
+            <h4 class="text-white">Mission</h4>
+            <p class="text-muted">Think Positive, Be Positive, Read Positive</p>
+          </div>
+          <div class="col-sm-4 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="http://novialim.com" class="text-white">Portfolio</a></li>
+              <li><a href="https://github.com/novialim" class="text-white">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-inverse bg-inverse">
+      <div class="container d-flex justify-content-between remLeftPad">
+        <a href="/" class="navbar-brand">PositiveNews</a>
+        <ul class="navbar-nav mr-auto">
+          {{!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li> --}}
+          <li class="nav-item">
+            <a class="nav-link" href="/articles">Saved Articles</a>
+          </li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+{{!--       <a class="navbar-brand" href="#">Carousel</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul> --}}
+
+      </div>
+    </div>
+
+    <div class="album text-muted">
+      <div class="container">
+
+        <div class="row">
+              
+          {{{ body }}}      
+        </div>
+
+      </div>
+    </div>
+
+    
+
+    <!-- Custom javascript link -->
+    <script src="js/app.js"></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

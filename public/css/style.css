@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.remLeftPad {
+	padding-left: 0 !important;
+}
+
+.btn-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+#modal-notes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.article {
+	width: 100%;
+	border-bottom: 1px dotted #c6c6c6;
+}
