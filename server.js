@@ -17,6 +17,7 @@ var cheerio = require("cheerio");
 // Set mongoose to leverage built in JavaScript ES6 Promises
 mongoose.Promise = Promise;
 
+const PORT = process.env.PORT || 3000;
 
 // Initialize Express
 var app = express();
@@ -56,6 +57,6 @@ require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
 // Listen on port 3000
-app.listen(3000, function() {
-    console.log("App running on port 3000!");
+app.listen(PORT, function() {
+    console.log("App running on port "+ PORT);
 });
