@@ -37,7 +37,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mongoscraper" );
+mongoose.connect("mongodb://heroku_77wpkcvd:7ump1ovd4qobahqd3umts5kpv8@ds161860.mlab.com:61860/heroku_77wpkcvd" || "mongodb://localhost/mongoscraper" );
 var db = mongoose.connection;
 
 // Show any mongoose errors
