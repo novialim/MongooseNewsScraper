@@ -2,7 +2,7 @@
 
 Web app that lets users leave comments on the latest positive news. Flexing Mongoose and Cheerio muscles to scrape news from https://www.positive.news/. 
 
-![PositiveNews](http://i.imgur.com/zBd6P1k.gifv)
+![PositiveNews](https://github.com/novialim/MongooseNewsScraper/blob/master/public/gif/positivenews.gif)
 
 ##  Technologies and Framework:
 * Node.js and Express
